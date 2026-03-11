@@ -1,0 +1,15 @@
+--- HPC Assignment 04 : Experiment 02 ---,--- HPC Assignment 04 : Experiment 02 ---,--- HPC Assignment 04 : Experiment 02 ---
+Grid: 250 x 100 | Particles: 100000000 | Iterations: 10,Grid: 500 x 200 | Particles: 100000000 | Iterations: 10,Grid: 1000 x 400 | Particles: 100000000 | Iterations: 10
+--------------------------------------------------,--------------------------------------------------,--------------------------------------------------
+Iter 1: 2.235811 seconds,Iter 1: 2.608246 seconds,Iter 1: 2.532280 seconds
+Iter 2: 2.228679 seconds,Iter 2: 2.660595 seconds,Iter 2: 2.516664 seconds
+Iter 3: 2.228565 seconds,Iter 3: 2.568116 seconds,Iter 3: 2.518683 seconds
+Iter 4: 2.236533 seconds,Iter 4: 2.558013 seconds,Iter 4: 2.515744 seconds
+Iter 5: 2.229633 seconds,Iter 5: 2.564176 seconds,Iter 5: 2.521599 seconds
+Iter 6: 2.229039 seconds,Iter 6: 2.551488 seconds,Iter 6: 2.518655 seconds
+Iter 7: 2.227529 seconds,Iter 7: 2.558725 seconds,Iter 7: 2.520889 seconds
+Iter 8: 2.231399 seconds,Iter 8: 2.550487 seconds,Iter 8: 2.517174 seconds
+Iter 9: 2.246081 seconds,Iter 9: 2.552104 seconds,Iter 9: 2.514510 seconds
+Iter 10: 2.227886 seconds,Iter 10: 2.551440 seconds,Iter 10: 2.514844 seconds
+--------------------------------------------------,--------------------------------------------------,--------------------------------------------------
+Total Interpolation Time (Over 10 Iters) = 22.321155 seconds,Total Interpolation Time (Over 10 Iters) = 25.723391 seconds,Total Interpolation Time (Over 10 Iters) = 25.191041 seconds

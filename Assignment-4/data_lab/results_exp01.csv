@@ -1,0 +1,43 @@
+Configuration 1
+NX=250 NY=100
+
+Particles: 100
+Total interpolation time = 0.000015 seconds
+Particles: 10000
+Total interpolation time = 0.000659 seconds
+Particles: 1000000
+Total interpolation time = 0.033805 seconds
+Particles: 100000000
+Total interpolation time = 3.304796 seconds
+Particles: 1000000000
+Total interpolation time = 309.021525 seconds
+
+
+Configuration 2
+NX=500 NY=200
+
+Particles: 100
+Total interpolation time = 0.000005 seconds
+Particles: 10000
+Total interpolation time = 0.000379 seconds
+Particles: 1000000
+Total interpolation time = 0.034664 seconds
+Particles: 100000000
+Total interpolation time = 3.483952 seconds
+Particles: 1000000000
+Total interpolation time = 290.082543 seconds
+
+
+Configuration 3
+NX=1000 NY=400
+
+Particles: 100
+Total interpolation time = 0.000024 seconds
+Particles: 10000
+Total interpolation time = 0.001022 seconds
+Particles: 1000000
+Total interpolation time = 0.073332 seconds
+Particles: 100000000
+Total interpolation time = 7.541535 seconds
+Particles: 1000000000
+Total interpolation time = 332.096878 seconds
