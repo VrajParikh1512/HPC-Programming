@@ -1,3 +1,9 @@
+#include "utils.h"
+#include <stdlib.h>
+#include <immintrin.h> 
+#include <algorithm>   
+#include <string.h>   
+
 void interpolation(double *mesh_value, Points *points)
 {
     const double inv_dx = 1.0 / dx;
