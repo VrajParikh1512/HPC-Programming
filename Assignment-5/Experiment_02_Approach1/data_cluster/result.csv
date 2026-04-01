@@ -1,0 +1,26 @@
+--- HPC Assignment 05 : Experiment 02 ---,,,
+Grid: 250 x 100 | Particles: 14000000 | Iters: 10,,,
+Interpolation Time,Mover Time,Total Runtime,Thread
+1.132076 seconds,3.610082 seconds,4.742157 seconds,1 threads 
+1.135798 seconds,1.825208 seconds,2.961006 seconds,2 threads
+1.170361 seconds,1.122421 seconds,2.292782 seconds,4 threads
+1.213083 seconds,0.589913 seconds,1.802996 seconds,8 threads
+1.141219 seconds,0.340225 seconds,1.481444 seconds,16 threads
+,,,
+--- HPC Assignment 05 : Experiment 02 ---,,,
+Grid: 500 x 200 | Particles: 14000000 | Iters: 10,,,
+Interpolation Time,Mover Time,Total Runtime,Thread
+1.522373 seconds,3.560409 seconds,5.082782 seconds,1 threads 
+1.522029 seconds,1.793953 seconds,3.315982 seconds,2 threads
+1.895098 seconds,1.090505 seconds,2.985602 seconds,4 threads
+2.308158 seconds,0.612879 seconds,2.921037 seconds,8 threads
+1.685405 seconds,0.333063 seconds,2.018468 seconds,16 threads
+,,,
+--- HPC Assignment 05 : Experiment 02 ---,,,
+Grid: 1000 x 400 | Particles: 14000000 | Iters: 10,,,
+Interpolation Time,Mover Time,Total Runtime,Thread
+1.882108 seconds,3.642159 seconds,5.524268 seconds,1 threads 
+3.863138 seconds,2.063870 seconds,5.927008 seconds,2 threads
+3.744534 seconds,1.120045 seconds,4.864579 seconds,4 threads
+3.828296 seconds,0.641406 seconds,4.469702 seconds,8 threads
+3.430364 seconds,0.406600 seconds,3.836964 seconds,16 threads

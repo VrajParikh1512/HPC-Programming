@@ -1,0 +1,26 @@
+--- HPC Assignment 05 : Experiment 01 ---,
+Grid: 250 x 100 | Iterations: 10,
+Particles,Total Exec Time 
+100,0.000207 seconds
+10000,0.006317 seconds
+1000000,0.359367 seconds
+100000000,26.640806 seconds
+1000000000,266.254822 seconds
+,
+--- HPC Assignment 05 : Experiment 01 ---,
+Grid: 500 x 200 | Iterations: 10,
+Particles,Total Exec Time 
+100,0.000471 seconds
+10000,0.004359 seconds
+1000000,0.306889 seconds
+100000000,29.366092 seconds
+1000000000,299.497612 seconds
+,
+--- HPC Assignment 05 : Experiment 01 ---,
+Grid: 1000 x 400 | Iterations: 10,
+Particles,Total Exec Time 
+100,0.003549 seconds
+10000,0.012033 seconds
+1000000,0.400108 seconds
+100000000,29.823463 seconds
+1000000000,297.904225 seconds

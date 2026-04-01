@@ -1,0 +1,26 @@
+--- HPC Assignment 05 : Experiment 01 ---,
+Grid: 250 x 100 | Iterations: 10,
+Particles,Total Exec Time 
+100,0.000143 seconds
+10000,0.004373 seconds
+1000000,0.428378 seconds
+100000000,41.682854 seconds
+1000000000,Memory allocation failed for 1000000000 particles.
+,
+--- HPC Assignment 05 : Experiment 01 ---,
+Grid: 500 x 200 | Iterations: 10,
+Particles,Total Exec Time 
+100,0.000433 seconds
+10000,0.004852 seconds
+1000000,0.422649 seconds
+100000000,45.671399 seconds
+1000000000,Memory allocation failed for 1000000000 particles.
+,
+--- HPC Assignment 05 : Experiment 01 ---,
+Grid: 1000 x 400 | Iterations: 10,
+Particles,Total Exec Time 
+100,0.002293 seconds
+10000,0.006012 seconds
+1000000,0.476393 seconds
+100000000,44.533853 seconds
+1000000000,Memory allocation failed for 1000000000 particles.
