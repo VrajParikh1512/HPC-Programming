@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <time.h>
+#include <omp.h>
 
 #include "init.h"
 #include "utils.h"
@@ -56,18 +57,18 @@ int main(int argc, char **argv) {
         read_points(file, points);
         memset(mesh_value, 0, GRID_X * GRID_Y * sizeof(double));
         
-        clock_t start = clock();
+        double start = omp_get_wtime();
 
         // Perform interpolation
         interpolation(mesh_value, points);
 
-        clock_t end = clock();
+        double end = omp_get_wtime();
 
-        total_time += (double)(end - start) / CLOCKS_PER_SEC;
+        total_time += (double)(end - start);
     }
 
     save_mesh(mesh_value);
-    printf("Total interpolation time (serial) = %lf seconds\n", total_time);
+    printf("Total interpolation time = %lf seconds\n", total_time);
 
     // Free memory
     free(mesh_value);

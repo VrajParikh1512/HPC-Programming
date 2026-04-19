@@ -1,0 +1,26 @@
+Config,Mode,Threads,Time
+input_A.bin,Parallel,2,0.010349
+input_A.bin,Parallel,4,0.008041
+input_A.bin,Parallel,8,.006977
+input_A.bin,Parallel,16,.008454
+input_B.bin,Parallel,2,.052844
+input_B.bin,Parallel,4,.031534
+input_B.bin,Parallel,8,.026484
+input_B.bin,Parallel,16,.027196
+input_C.bin,Parallel,2,.049847
+input_C.bin,Parallel,4,.025748
+input_C.bin,Parallel,8,.028734
+input_C.bin,Parallel,16,.028940
+input_D.bin,Parallel,2,.259682
+input_D.bin,Parallel,4,.161242
+input_D.bin,Parallel,8,.135372
+input_D.bin,Parallel,16,.128559
+input_E.bin,Parallel,2,.207163
+input_E.bin,Parallel,4,.141839
+input_E.bin,Parallel,8,.136265
+input_E.bin,Parallel,16,.156013
+input_A.bin,Serial,1, 0.017786
+input_B.bin,Serial,1,0.097926
+input_C.bin,Serial,1,0.084940
+input_D.bin,Serial,1,0.475643
+input_E.bin,Serial,1,0.347222
