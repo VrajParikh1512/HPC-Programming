@@ -1,3 +1,31 @@
 # Generated large binary inputs
 Assignment-3/serial_code_files/input.bin
 Assignment-3/serial_code_files/Test_input.bin
+
+# macOS system files
+.DS_Store
+**/.DS_Store
+
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# IDE and editor files
+.vscode/
+.idea/
+
+# Compiled object files and executables
+*.o
+*.out
+*.a
+*.so
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Large binary data files
+*.bin
+*.dat
+data_cluster.txt
