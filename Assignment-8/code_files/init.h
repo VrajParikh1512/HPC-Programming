@@ -6,7 +6,6 @@
 // Point structure
 typedef struct {
     double x, y;
-    bool is_void;
 } Points;
 
 // Global simulation parameters

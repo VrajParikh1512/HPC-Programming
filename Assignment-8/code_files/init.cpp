@@ -8,7 +8,6 @@ void initializepoints(Points *points) {
     for (int i = 0; i < NUM_Points; i++) {
         points[i].x = (double) rand() / RAND_MAX;
         points[i].y = (double) rand() / RAND_MAX;
-        points[i].is_void = false;
     }
 }
 
@@ -17,6 +16,5 @@ void read_points(FILE *file, Points *points) {
     for (int i = 0; i < NUM_Points; i++) {
         fread(&points[i].x, sizeof(double), 1, file);
         fread(&points[i].y, sizeof(double), 1, file);
-        points[i].is_void = false;   
     }
 }
